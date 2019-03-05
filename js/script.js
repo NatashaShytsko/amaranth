@@ -7,7 +7,7 @@ $(document).ready(function(){
 	});
 	var o=$(".js-main-logo-block").offset().top,
 	n=function(){
-		var o=$(".js-main-logo-block").height()+30+"px";
+		var o=$(".js-main-logo-block").height()+18+"px";
 		$(".js-main-content").css("margin-top",o)},
 		t=function(){
 			$(window).scrollTop()>o?$(".js-main-logo-block").addClass("sticky"):$(".js-main-logo-block").removeClass("sticky")};
